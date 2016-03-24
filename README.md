@@ -84,8 +84,9 @@ Die Funktionen des DV4Mini, die mit der DV4MF2.exe gesteuert werden können,
 sind weitestgehend identisch mit der Originalversion der DV4mini.exe (Stand: 12/2015)
 Voraussetzung zum Betrieb ist der Firmware-Stand 1.6x auf dem DV4mini.
 
-Support in der DMRPlus Yahoo-Group unter:
-https://de.groups.yahoo.com/neo/groups/dmrplus/info
+Support zur Nutzung in Verbindung mit einem Hotspot in den deutschen DMR-Amateurfunknetzen unter:
+https://de.groups.yahoo.com/neo/groups/Dmrplus/info
+https://de.groups.yahoo.com/neo/groups/Brandmeister/info
 
 Installationshinweise:
 http://www.dl2mf.de/blog/?p=1297
@@ -94,31 +95,33 @@ Mit der Nutzung der DV4MF2 Control Panel Software erklärt der Benutzer in allen
 folgenden Punkten sein uneingeschränktes Einverständnis zu den Bedingungen für
 die Nutzung und Überlassung der DV4MF2.exe, im folgenden Software genannt:
 
-    - Die hier bereitgestellte Software darf auf beliebig vielen Rechnern
-    (PC, Tablet, Raspberry Pi, Banana Pi, Odroid, Thinclient, usw.) 
-	installiert und verwendet werden.
-	
-    - Eine Nutzung ist ausschließlich zu nicht kommerziellen Hobbyzwecken
-    und nicht für sicherheitsrelevante Aufgaben oder Bereiche zulässig.
+- Die hier bereitgestellte Software darf auf beliebig vielen Rechnern
+  (PC, Tablet, Raspberry Pi, Banana Pi, Odroid, Thinclient, usw.) 
+  installiert und verwendet werden.
+
+- Eine Nutzung ist ausschließlich zu nicht kommerziellen Hobbyzwecken
+  und nicht für sicherheitsrelevante Aufgaben oder Bereiche zulässig.
     
-	- Die persönliche, kostenlose Weitergabe dieser Software an Dritte ist zulässig,
-    soweit der Empfänger ebenfalls uneingeschränkt diesen Bedingungen zustimmt.
-	
-    - Es ist unzulässig, ohne Zustimmung des Autors DL2MF diese Software oder
-    Kopien davon in elektronischen Medien, auf Internetplatformen oder in Foren
-    zum Download bereitzustellen.
+- Die persönliche, kostenlose Weitergabe dieser Software an Dritte ist zulässig,
+  soweit der Empfänger ebenfalls uneingeschränkt diesen Bedingungen zustimmt.
+
+- Es ist unzulässig, ohne Zustimmung des Autors DL2MF diese Software oder
+  Kopien davon in elektronischen Medien, auf Internetplatformen oder in Foren
+  zum Download bereitzustellen.
 
 Alle dem Sinn dieser Regelungen zuwiderlaufenden Handlungen sind nicht zulässig, 
 der Autor der Software haftet nicht für Schäden, entgangenen Gewinn oder erforderliche 
 Aufwendungen, die aus der Nutzung und/oder dem Gebrauch der Software und damit 
 in Verbindung stehenden Folgen entstehen oder entstehen können.
 
-DIE verwendeten Markenzeichen, Herstellerlogos und Produktnamen dienen der
+Das Urheberrecht für die Anwendung DV4MF2.EXE liegt bei Meinhard Günther, DL2MF.
+
+Die verwendeten Markenzeichen, Herstellerlogos und Produktnamen dienen der
 Funktionsbeschreibung im Programm, aus deren Verwendung ist kein freier Gebrauch abzuleiten.
 
 Das Urheberrecht an den zur Nutzung dieser Software erforderlichen Komponenten und 
 der dazugehörigen Software oder Teilen davon liegt bei Torsten Schultze, DG1HT, 
-Kurt Moraw, DJ0ABR, Stefan Reimann, DG8FAC und für DV4MF2.EXE bei Meinhard Günther, DL2MF.
+Kurt Moraw, DJ0ABR, Stefan Reimann, DG8FAC.
 ==============================================================================================
 
 
