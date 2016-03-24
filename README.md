@@ -1,7 +1,11 @@
 DV4MF2 - MultiFunction Dualmode Control Panel for HAM DV modes
 ==============================================================
 
-This repository contains Language support, Add-On files and samples for the DV4MF2 DMR Controlpanel.
+This repository contains Language support, Add-On files and other sample files for the DV4MF2 DMR Controlpanel.
+
+To use DV4MF2 with other than the build-in languages, please create a folder "\languages" inside the program folder and download and copy your favorite languages to this folder.
+
+The Controlpanel dynamically loads at startup available languages, the current language can be selected in the gateway tab, when language files were found in the specific folder, the program offers a selectlist instead of the default language buttons.
 
 Starting from V2.0.0.10 the DV4MF2 control panel supports the following GUI languages:
 
@@ -14,6 +18,7 @@ Starting from V2.0.0.10 the DV4MF2 control panel supports the following GUI lang
 - Svenska    (language file) *contributor needed
 
 Changelog:
+==============================================================
 
 Version 2.0.0.10 - 20160326 Easter release coming soon!
 ...........................
