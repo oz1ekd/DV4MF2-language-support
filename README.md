@@ -119,8 +119,6 @@ Das Urheberrecht für die Anwendung DV4MF2.EXE liegt bei Meinhard Günther, DL2M
 Die verwendeten Markenzeichen, Herstellerlogos und Produktnamen dienen der Funktionsbeschreibung im Programm, aus deren Verwendung ist kein freier Gebrauch abzuleiten.
 
 Das Urheberrecht an den zur Nutzung dieser Software erforderlichen Komponenten und der dazugehörigen Software oder Teilen davon liegt bei Torsten Schultze, DG1HT, Kurt Moraw, DJ0ABR, Stefan Reimann, DG8FAC.
+
+
 ==============================================================================================
-
-
-
-
