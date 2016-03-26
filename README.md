@@ -15,7 +15,10 @@ Starting from V2.0.0.10 the DV4MF2 control panel supports the following GUI lang
 - Italiano   (language file) tnx to HB9OAB
 - Espaniol   (language file) tnx to EA2CQ
 - Nederlands (language file) tnx to PD0ZRY
-- Svenska    (language file) *contributor needed
+- Svenska*   (language file) *looking for a contributor
+- Polski*    (language file) *looking for a contributor
+- русский    (language file) *looking for a contributor
+- user defined - built your own language file
 
 Changelog:
 ==============================================================
@@ -23,6 +26,7 @@ Changelog:
 Version 2.0.0.10 - 20160326 Easter release coming soon!
 ...........................
 - NEW:   New GUI language support (see above) for up to 10 languages 
+- NEW:   display UTC time in status bar now also on all windows clients
 - ADDED: check for compatible dv_serial when starting program
 - ADDED: important status messages (during startup) logged into info section
 - FIXED: C4FM reflector display info for FCS001/FCS002 users
