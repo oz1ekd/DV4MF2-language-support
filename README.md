@@ -9,7 +9,7 @@ The Controlpanel dynamically loads at startup available languages, the current l
 
 Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages. Due to many requests this is just under development again, tonight we'll release a new version with support for up to <b>20 languages</b>:
 
-Available languages (complete and ready for download here):
+<b>Available languages (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
 - Italiano   (language file) tnx to Franco, HB9OAB
@@ -18,11 +18,11 @@ Available languages (complete and ready for download here):
 - Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
 - user defined - built your own individual language file
 
-Soon available languages (under revision):
+<b>Soon available languages (under revision):</b>
 - Francais   (language file) tnx to Bernard, F1UGZ (in progress, coming soon)
 - Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.10a needed
 
-Languages we are looking for contributors (simply take the english file as your template):
+<b><i>Languages we are looking for contributors (simply take the english file as your template):</b></i>
 - Vlaams    (language file) *looking for a contributor
 - Svenska   (language file) *looking for a contributor
 - Norsk     (language file) *looking for a contributor
@@ -33,9 +33,17 @@ Languages we are looking for contributors (simply take the english file as your 
 
 Installation:
 ==============================================================
-To use DV4MF2 with foreign languages, simply create a folder "/languages" inside the program directory and copy the english language file and any language of your own choice to this folder.
+To use DV4MF2 with foreign languages, simply create a folder "/languages" inside the program directory and copy the english language file and any language of your own choice to this folder. When running Linux please keep in mind, the folder name (lower case) and filenames (mixed case) must be written exactly in this way like the original files.
 
 When running DV4MF2 Control Panel you'll notice, the language selection radio buttons on the "Gateway & Settings" Tab has changed to a dropdown listbox. Select your favorite language and the program will change the GUI description. Some elements have not been translated, these are either very deep coded into the program sources or this messages are replies from the DV4mini firmware.
+
+To create your own language file please use "DV4MF2_us-ER.lng" as a template and overwrite the text elements. The syntax of the textfile is very simple, please keep in mind the following rules:
+- You may use up to 20 header lines with your own comments, starting with a single hashtag '#'.
+- The double hashtag '##' is being used as a line break, like for opmode and helptext elements. 
+- The textarea must start with 'language:description', this is being displayed inside the dropdown list
+- The file must end with '***END***' as an end tag after the last text line.
+
+When you have finished your own textfile, please save the DV4MF2_us-ER.lng to your language directory and enjoy your own GUI.
 
 
 Changelog:
