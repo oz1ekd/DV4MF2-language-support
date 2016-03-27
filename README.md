@@ -7,25 +7,47 @@ To use DV4MF2 with other than the build-in languages, please create a folder "\l
 
 The Controlpanel dynamically loads at startup available languages, the current language can be selected in the gateway tab, when language files were found in the specific folder, the program offers a selectlist instead of the default language buttons.
 
-Starting from V2.0.0.10 the DV4MF2 control panel supports the following GUI languages:
+Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages. Due to many requests this is just under development again, tonight we'll release a new version with support for up to <b>20 languages</b>:
 
+Available languages (complete and ready for download here):
 - English    (build-in + language file)
 - German     (build-in + language file)
-- Francais   (language file) tnx to F1UGZ
-- Italiano   (language file) tnx to HB9OAB
-- Espaniol   (language file) tnx to EA2CQ
-- Português  (language file) tnx to CT1JIB   *fix for V2.0.0.10 needed, please load latest version
-- Nederlands (language file) tnx to PD0ZRY
-- Svenska*   (language file) *looking for a contributor
-- Polski*    (language file) *looking for a contributor
-- русский    (language file) *looking for a contributor
-- user defined - built your own language file
+- Italiano   (language file) tnx to Franco, HB9OAB
+- Espaniol   (language file) tnx to Iñigo, EA2CQ
+- Português  (language file) tnx to José, CT1JIB   *update for V2.0.0.10a needed, coming tonight
+- Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
+- user defined - built your own individual language file
+
+Soon available languages (under revision):
+- Francais   (language file) tnx to Bernard, F1UGZ (in progress, coming soon)
+- Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.10a needed
+
+Languages we are looking for contributors (simply take the english file as your template):
+- Vlaams    (language file) *looking for a contributor
+- Svenska   (language file) *looking for a contributor
+- Norsk     (language file) *looking for a contributor
+- Dansk     (language file) *looking for a contributor
+- Polski    (language file) *looking for a contributor
+- русский   (language file) *looking for a contributor
+- your file - please send us your translation
+
+Installation:
+==============================================================
+To use DV4MF2 with foreign languages, simply create a folder "/languages" inside the program directory and copy the english language file and any language of your own choice to this folder.
+
+When running DV4MF2 Control Panel you'll notice, the language selection radio buttons on the "Gateway & Settings" Tab has changed to a dropdown listbox. Select your favorite language and the program will change the GUI description. Some elements have not been translated, these are either very deep coded into the program sources or this messages are replies from the DV4mini firmware.
+
 
 Changelog:
 ==============================================================
 
-Version 2.0.0.10 - 20160326 Easter release coming soon!
-...........................
+Version 2.0.0.10a - 20160326 Easter release II coming soon!
+...........................................................
+- NEW:   New GUI language support (see above) for up to 20 languages!
+- This release is prerequisite for using Português, Suomi, Norsk, Dansk and some more future languages.
+
+Version 2.0.0.10 - 20160326 "Easter release" 
+............................................
 - NEW:   New GUI language support (see above) for up to 10 languages 
 - NEW:   display UTC time in status bar now also on all windows clients
 - ADDED: check for compatible dv_serial when starting program
