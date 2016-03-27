@@ -14,6 +14,7 @@ Starting from V2.0.0.10 the DV4MF2 control panel supports the following GUI lang
 - Francais   (language file) tnx to F1UGZ
 - Italiano   (language file) tnx to HB9OAB
 - Espaniol   (language file) tnx to EA2CQ
+- Português  (language file) tnx to CT1JIB   *fix for V2.0.0.10 needed, please load latest version
 - Nederlands (language file) tnx to PD0ZRY
 - Svenska*   (language file) *looking for a contributor
 - Polski*    (language file) *looking for a contributor
