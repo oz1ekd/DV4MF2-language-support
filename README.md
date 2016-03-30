@@ -14,18 +14,18 @@ Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages
 - German     (build-in + language file)
 - Italiano   (language file) tnx to Franco, HB9OAB
 - Espaniol   (language file) tnx to Iñigo, EA2CQ
-- Português  (language file) tnx to José, CT1JIB   *update for V2.0.0.10a needed, coming tonight
+- Português  (language file) tnx to José, CT1JIB   *update for V2.0.0.11 needed, coming soon
 - Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
+- Norsk      (language file) tnx to Gaute, LB6YD   *update V2.0.0.11 needed, coming soon
 - user defined - built your own individual language file
 
 <b>Soon available languages (under revision):</b>
 - Francais   (language file) tnx to Bernard, F1UGZ (in progress, coming soon)
-- Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.10a needed
+- Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.11 needed, coming soon
 
 <b><i>Languages we are looking for contributors (simply take the english file as your template):</b></i>
 - Vlaams    (language file) *looking for a contributor
 - Svenska   (language file) *looking for a contributor
-- Norsk     (language file) *looking for a contributor
 - Dansk     (language file) *looking for a contributor
 - Polski    (language file) *looking for a contributor
 - русский   (language file) *looking for a contributor
