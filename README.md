@@ -51,7 +51,15 @@ When you have finished your own textfile, please save the DV4MF2_us-ER.lng to yo
 Changelog:
 ==============================================================
 
-Version 2.0.0.10a - 20160326 Easter release II coming soon!
+Version 2.0.0.11 - 20160401 "April joke"
+...........................................................
+- NEW:   New GUI language file format (see above), up to 20 languages and 45 new text elements!
+- This release is prerequisite for using Português, Suomi, Norsk, Dansk and all future languages.
+- FIXED: Reflector info in Mode DStar was corrupt due to the FCS/C4FM changes, now both work
+- FIXED: Statusline information RX/TX and UTC clock display
+- FIXED: special character display for foreign languages fixed
+
+Version 2.0.0.10a - 20160326 Easter release II
 ...........................................................
 - NEW:   New GUI language support (see above) for up to 20 languages!
 - This release is prerequisite for using Português, Suomi, Norsk, Dansk and some more future languages.
