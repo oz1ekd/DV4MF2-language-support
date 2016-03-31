@@ -3,20 +3,22 @@ DV4MF2 - MultiFunction Dualmode Control Panel for HAM DV modes
 
 This repository contains Language support, Add-On files and other sample files for the DV4MF2 DMR Controlpanel.
 
-To use DV4MF2 with other than the build-in languages, please create a folder "\languages" inside the program folder and download and copy your favorite languages to this folder.
+To use DV4MF2 with additional languages, please create a folder "\languages" inside the program folder and download and copy the standard english language and any of your favorite languages to this folder.
 
 The Controlpanel dynamically loads at startup available languages, the current language can be selected in the gateway tab, when language files were found in the specific folder, the program offers a selectlist instead of the default language buttons.
 
-Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages. Due to many requests this is just under development again, tonight we'll release a new version with support for up to <b>20 languages</b>:
+Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages. Due to many requests this is just under development again, the next version 2.0.0.11 will add support for up to <b>20 languages</b> and <u>the format has been extended</u> to <b>add 35 additional customizable text elements</b>:
 
 <b>Available languages (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
 - Italiano   (language file) tnx to Franco, HB9OAB
 - Espaniol   (language file) tnx to Iñigo, EA2CQ
-- Português  (language file) tnx to José, CT1JIB   *update for V2.0.0.11 needed, coming soon
 - Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
-- Norsk      (language file) tnx to Gaute, LB6YD   *update V2.0.0.11 needed, coming soon
+
+- native support starting from V2.0.0.11 (soon available):
+- Português  (language file) tnx to José, CT1JIB
+- Norsk      (language file) tnx to Gaute, LB6YD and Kai, LA3QMA
 - user defined - built your own individual language file
 
 <b>Soon available languages (under revision):</b>
