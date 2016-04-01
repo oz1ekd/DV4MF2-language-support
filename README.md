@@ -1,35 +1,41 @@
-DV4MF2 - MultiFunction Dualmode Control Panel for HAM DV modes
-==============================================================
+DV4MF2 - V2.0.0.11 Control Panel for HAM DV modes
+=================================================
 
 This repository contains Language support, Add-On files and other sample files for the DV4MF2 DMR Controlpanel.
 
+Since V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
+
 To use DV4MF2 with additional languages, please create a folder "\languages" inside the program folder and download and copy the standard english language and any of your favorite languages to this folder.
 
-The Controlpanel dynamically loads at startup available languages, the current language can be selected in the gateway tab, when language files were found in the specific folder, the program offers a selectlist instead of the default language buttons.
+The control panel dynamically loads at startup available languages, the available languages (up to 20 with V2.0.0.11) can be selected by the user in the programs gateway tab. When language files were found in the specific folder, the program offers a selectlist instead of the default language buttons for english/german (build-in).
 
-Starting from V2.0.0.10 the DV4MF2 control panel supports up to 10 GUI languages. Due to many requests this is just under development again, the next version 2.0.0.11 will add support for up to <b>20 languages</b> and <u>the format has been extended</u> to <b>add 35 additional customizable text elements</b>:
+Starting with V2.0.0.10 the DV4MF2 control panel supported up to 10 GUI languages. Due to many requests this was extended to up to <b>20 languages</b> within one week. 
+
+Compatibility note:
+===================
+With V2.0.0.11 the language file format changed, it has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
+<u>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</u>
 
 <b>Available languages (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
 - Italiano   (language file) tnx to Franco, HB9OAB
 - Espaniol   (language file) tnx to Iñigo, EA2CQ
-- Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
-
-- native support starting from V2.0.0.11 (soon available):
 - Português  (language file) tnx to José, CT1JIB
-- Norsk      (language file) tnx to Gaute, LB6YD and Kai, LA3QMA
-- user defined - built your own individual language file
+- Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
+- Swedish    (language file) tnx to Johan, SM0TSC
+- Norsk      (language file) tnx to Gaute, LB6YD
+- User defined template available to build your own file
 
 <b>Soon available languages (under revision):</b>
 - Francais   (language file) tnx to Bernard, F1UGZ (in progress, coming soon)
 - Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.11 needed, coming soon
 
 <b><i>Languages we are looking for contributors (simply take the english file as your template):</b></i>
-- Vlaams    (language file) *looking for a contributor
-- Svenska   (language file) *looking for a contributor
+- Belgium   (language file) *looking for a contributor
 - Dansk     (language file) *looking for a contributor
 - Polski    (language file) *looking for a contributor
+- Czech     (language file) *looking for a contributor
 - русский   (language file) *looking for a contributor
 - your file - please send us your translation
 
@@ -58,11 +64,6 @@ Version 2.0.0.11 - 20160401 "April joke"
 - FIXED: Reflector info in Mode DStar was corrupt due to the FCS/C4FM changes, now both work
 - FIXED: Statusline information RX/TX and UTC clock display
 - FIXED: special character display for foreign languages fixed
-
-Version 2.0.0.10a - 20160326 Easter release II
-...........................................................
-- NEW:   New GUI language support (see above) for up to 20 languages!
-- This release is prerequisite for using Português, Suomi, Norsk, Dansk and some more future languages.
 
 Version 2.0.0.10 - 20160326 "Easter release" 
 ............................................
