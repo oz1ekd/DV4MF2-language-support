@@ -3,20 +3,19 @@ DV4MF2 - V2.0.0.11 Control Panel for HAM DV modes
 
 This repository contains Language support, Add-On files and other sample files for the DV4MF2 DMR Controlpanel.
 
-Since V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
+Starting with V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
 
-To use DV4MF2 with additional languages, please create a folder "\languages" inside the program folder and download and copy the standard english language and any of your favorite languages to this folder.
+To use DV4MF2 with additional languages, please create a folder "\languages" inside the program folder and download and <b>copy the standard english language and any of your favorite languages</b> to this folder.
 
 The control panel dynamically loads at startup available languages, the available languages (up to 20 with V2.0.0.11) can be selected by the user in the programs gateway tab. When language files were found in the specific folder, the program offers a selectlist instead of the default language buttons for english/german (build-in).
 
-Starting with V2.0.0.10 the DV4MF2 control panel supported up to 10 GUI languages. Due to many requests this was extended to up to <b>20 languages</b> within one week. 
 
 Compatibility note:
 ===================
 With V2.0.0.11 the language file format changed, it has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
-<u>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</u>
+<h2>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</h2>
 
-<b>Available languages (complete and ready for download here):</b>
+<b>Available language files V2.0.0.11 (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
 - Italiano   (language file) tnx to Franco, HB9OAB
