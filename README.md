@@ -60,9 +60,15 @@ When you have finished your own textfile, please save the DV4MF2_us-ER.lng to yo
 
 Naming conventions:
 ==============================================================
-All supported language files are following to Microsofts Table of Language Culture Names: https://msdn.microsoft.com/en-us/library/ee825488%28v=cs.20%29.aspx
+Most supported language files are following to Microsofts Table of Language Culture Names: https://msdn.microsoft.com/en-us/library/ee825488%28v=cs.20%29.aspx
 
-This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters. Any additional language can be used by the option of the user-defined language file.
+This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
+
+There are currently to exceptions from this, to avoid to much different files for one language:
+en-EN - being used for en-US and en-GB
+no-NO - being used for nb-NO and ny-NO
+
+Any additional language can be used by the option of the user-defined language file.
 
 
 Changelog:
@@ -146,10 +152,14 @@ All functions controlled by DV4MF2 are based on the communication API to the har
 To oerate a DV4mini with this software, the original firmware and dv_serial (latest 2016-01-12, newer version not supported!) is prerequisite and all available functions are depending on the firmware.
 
 Please check also the support forums for the hardware you are using for your hotspot:
+
 https://de.groups.yahoo.com/neo/groups/Dmrplus/info
+
 https://de.groups.yahoo.com/neo/groups/Brandmeister/info
 
+
 Hints and tips for installation of DV4MF2 control panel (Windows/Linux):
+
 http://www.dl2mf.de/blog/?p=1297
 
 
