@@ -65,11 +65,8 @@ Most supported language files are following to Microsofts Table of Language Cult
 This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
 
 There are currently to exceptions from this, to avoid to much different files for one language:
-
-en-EN - being used for en-US and en-GB
-
-no-NO - being used for nb-NO and ny-NO
-
+- en-EN - being used for en-US and en-GB
+- no-NO - being used for nb-NO and ny-NO
 
 Any additional language can be used by the option of the user-defined language file.
 
@@ -156,14 +153,12 @@ To oerate a DV4mini with this software, the original firmware and dv_serial (lat
 
 Please check also the support forums for the hardware you are using for your hotspot:
 
-https://de.groups.yahoo.com/neo/groups/Dmrplus/info
-
-https://de.groups.yahoo.com/neo/groups/Brandmeister/info
+- https://de.groups.yahoo.com/neo/groups/Dmrplus/info
+- https://de.groups.yahoo.com/neo/groups/Brandmeister/info
 
 
 Hints and tips for installation of DV4MF2 control panel (Windows/Linux):
-
-http://www.dl2mf.de/blog/?p=1297
+- http://www.dl2mf.de/blog/?p=1297
 
 
 Lizenzbedingungen
