@@ -64,7 +64,7 @@ Most supported language files are following to Microsofts Table of Language Cult
 
 This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
 
-There are currently to exceptions from this, to avoid to much different files for one language:
+There are currently to exceptions from this standard, to avoid too much different files for one language:
 - en-EN - being used for en-US and en-GB
 - no-NO - being used for nb-NO and ny-NO
 
@@ -192,7 +192,7 @@ Das Urheberrecht für die Anwendung DV4MF2.EXE liegt bei Meinhard Günther, DL2M
 
 Die verwendeten Markenzeichen, Herstellerlogos und Produktnamen dienen der Funktionsbeschreibung im Programm, aus deren Verwendung ist kein freier Gebrauch abzuleiten.
 
-Das Urheberrecht an den zur Nutzung dieser Software erforderlichen Komponenten und der dazugehörigen Software oder Teilen davon liegt bei Torsten Schultze, DG1HT, Kurt Moraw, DJ0ABR, Stefan Reimann, DG8FAC.
+Das Urheberrecht an Teilen der zur Nutzung dieser Software erforderlichen ClosedSource-Komponenten und der dazugehörigen Software wurde eingeräumt und liegt bei Torsten Schultze, DG1HT, Kurt Moraw, DJ0ABR, Stefan Reimann, DG8FAC.
 
 
 ==============================================================================================
