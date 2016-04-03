@@ -1,7 +1,7 @@
-DV4MF2 - V2.0.0.11 Control Panel for HAM DV modes
-=================================================
+DV4MF2 - Control Panel for HAM DV modes
+=======================================
 
-This repository contains Language support, Add-On files and other sample files for the DV4MF2 DMR Controlpanel.
+This repository contains Language support, Add-On files and other sample files for the popular DV4MF2 DMR Controlpanel.
 
 Starting with V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
 
