@@ -65,8 +65,11 @@ Most supported language files are following to Microsofts Table of Language Cult
 This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
 
 There are currently to exceptions from this, to avoid to much different files for one language:
+
 en-EN - being used for en-US and en-GB
+
 no-NO - being used for nb-NO and ny-NO
+
 
 Any additional language can be used by the option of the user-defined language file.
 
