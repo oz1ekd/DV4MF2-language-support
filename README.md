@@ -19,6 +19,7 @@ With V2.0.0.11 the language file format changed (see below)!. It has been extend
 <b>Available language files V2.0.0.11 (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
+- Francais   tnx to Frederic, F4EED 
 - Italiano   tnx to Franco, HB9OAB
 - Espaniol   tnx to Iñigo, EA2CQ
 - Português  tnx to José, CT1JIB
@@ -28,7 +29,6 @@ With V2.0.0.11 the language file format changed (see below)!. It has been extend
 - User       a template available to build your own file
 
 <b>Soon available languages (under revision):</b>
-- Francais   tnx to Bernard, F1UGZ (in progress)
 - Polish     tnx to Sebastian, SP2FRN (in progress)
 - Suomi      (language file) tnx to Johanna (in progress)
 
