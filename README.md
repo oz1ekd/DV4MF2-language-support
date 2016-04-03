@@ -12,28 +12,32 @@ The control panel dynamically loads at startup available languages, the availabl
 
 Compatibility note:
 ===================
-With V2.0.0.11 the language file format changed, it has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
+With V2.0.0.11 the language file format changed (see below)!. It has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
+
 <h2>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</h2>
 
 <b>Available language files V2.0.0.11 (complete and ready for download here):</b>
 - English    (build-in + language file)
 - German     (build-in + language file)
-- Italiano   (language file) tnx to Franco, HB9OAB
-- Espaniol   (language file) tnx to Iñigo, EA2CQ
-- Português  (language file) tnx to José, CT1JIB
-- Nederlands (language file) tnx to Rudy, PD0ZRY and Walter, PD2WGN
-- Swedish    (language file) tnx to Johan, SM0TSC
-- Norsk      (language file) tnx to Gaute, LB6YD
-- User defined template available to build your own file
+- Italiano   tnx to Franco, HB9OAB
+- Espaniol   tnx to Iñigo, EA2CQ
+- Português  tnx to José, CT1JIB
+- Nederlands tnx to Rudy, PD0ZRY and Walter, PD2WGN
+- Swedish    tnx to Johan, SM0TSC
+- Norsk      tnx to Gaute, LB6YD
+- User       a template available to build your own file
 
 <b>Soon available languages (under revision):</b>
-- Francais   (language file) tnx to Bernard, F1UGZ (in progress, coming soon)
-- Suomi      (language file) tnx to Johanna (in progress, coming soon) *update V2.0.0.11 needed, coming soon
+- Francais   tnx to Bernard, F1UGZ (in progress)
+- Polish     tnx to Sebastian, SP2FRN (in progress)
+- Suomi      (language file) tnx to Johanna (in progress)
+
+<b>Other optional languages and modifications:</b> 
+- Norsk      based on Gaute, LB6YD with some modifications by Kai, LA3QMA
 
 <b><i>Languages we are looking for contributors (simply take the english file as your template):</b></i>
 - Belgium   (language file) *looking for a contributor
 - Dansk     (language file) *looking for a contributor
-- Polski    (language file) *looking for a contributor
 - Czech     (language file) *looking for a contributor
 - русский   (language file) *looking for a contributor
 - your file - please send us your translation
@@ -47,10 +51,18 @@ When running DV4MF2 Control Panel you'll notice, the language selection radio bu
 To create your own language file please use "DV4MF2_us-ER.lng" as a template and overwrite the text elements. The syntax of the textfile is very simple, please keep in mind the following rules:
 - You may use up to 20 header lines with your own comments, starting with a single hashtag '#'.
 - The double hashtag '##' is being used as a line break, like for opmode and helptext elements. 
-- The textarea must start with 'language:description', this is being displayed inside the dropdown list
+- The textarea must start with 'language::description', this is the text being displayed in the dropdown list*
 - The file must end with '***END***' as an end tag after the last text line.
 
+*the language parameter has changed from 2.0.0.10 (language:) to 2.0.0.11 (language::", the program checks this.
+
 When you have finished your own textfile, please save the DV4MF2_us-ER.lng to your language directory and enjoy your own GUI.
+
+Naming conventions:
+==============================================================
+All supported language files are following to Microsofts Table of Language Culture Names: https://msdn.microsoft.com/en-us/library/ee825488%28v=cs.20%29.aspx
+
+This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters. Any additional language can be used by the option of the user-defined language file.
 
 
 Changelog:
@@ -130,17 +142,19 @@ Version 1.64.22 - 20160103
 - first public release
 
 ----------------------------------------------------------------------------------------------
-Die Funktionen des DV4Mini, die mit der DV4MF2.exe gesteuert werden können, 
-sind weitestgehend identisch mit der Originalversion der DV4mini.exe (Stand: 12/2015)
-Voraussetzung zum Betrieb ist der Firmware-Stand 1.6x auf dem DV4mini.
+All functions controlled by DV4MF2 are based on the communication API to the hardware modem.
+To oerate a DV4mini with this software, the original firmware and dv_serial (latest 2016-01-12, newer version not supported!) is prerequisite and all available functions are depending on the firmware.
 
-Support zur Nutzung in Verbindung mit einem Hotspot in den deutschen DMR-Amateurfunknetzen unter:
+Please check also the support forums for the hardware you are using for your hotspot:
 https://de.groups.yahoo.com/neo/groups/Dmrplus/info
 https://de.groups.yahoo.com/neo/groups/Brandmeister/info
 
-Installationshinweise:
+Hints and tips for installation of DV4MF2 control panel (Windows/Linux):
 http://www.dl2mf.de/blog/?p=1297
 
+
+Lizenzbedingungen
+==============================================================
 Mit der Nutzung der DV4MF2 Control Panel Software erklärt der Benutzer in allen
 folgenden Punkten sein uneingeschränktes Einverständnis zu den Bedingungen für
 die Nutzung und Überlassung der DV4MF2.exe, im folgenden Software genannt:
@@ -164,7 +178,9 @@ der Autor der Software haftet nicht für Schäden, entgangenen Gewinn oder erfor
 Aufwendungen, die aus der Nutzung und/oder dem Gebrauch der Software und damit 
 in Verbindung stehenden Folgen entstehen oder entstehen können.
 
-Das Urheberrecht für die Anwendung DV4MF2.EXE liegt bei Meinhard Günther, DL2MF.
+Copyright & Disclaimer
+==============================================================
+Das Urheberrecht für die Anwendung DV4MF2.EXE liegt bei Meinhard Günther, DL2MF. Alle Ergänzugen und Erweiterungen inklusive der Sprachdateien sind OpenSource.
 
 Die verwendeten Markenzeichen, Herstellerlogos und Produktnamen dienen der Funktionsbeschreibung im Programm, aus deren Verwendung ist kein freier Gebrauch abzuleiten.
 
