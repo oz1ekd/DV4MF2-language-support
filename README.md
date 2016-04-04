@@ -29,6 +29,7 @@ Running <b>Linux</b> currently causes a <b>compatibilty issue</b> with english a
 - sv-SV - Swedish    tnx to Johan, SM0TSC
 - no-NO*- Norsk      tnx to Gaute, LB6YD 
 - us-ER - User       a template available to build your own file
+
 *to use one of this language please try V2.0.0.10 (with old language file format) or upgrade to V2.0.0.12 when available, english also available as built-in language, rename or delete /languages folder to use built-in languages!
 
 <b>Soon available languages (under revision):</b>
