@@ -14,7 +14,7 @@ Compatibility note:
 ===================
 With V2.0.0.11 the language file format changed (see below)!. It has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
 
-Running Linux currently causes a <b>compatibilty issue</b> with english and norwegian language file. This is because of the language codes (en-EN / no-NO) currently used for compatibility. With release V2.0.0.12 the control panel will support the official extensions of the Microsoft country code table (en-GB, nb-NO) to avoid any problems with Mono/Linux.
+Running <b>Linux</b> currently causes a <b>compatibilty issue</b> with english and norwegian language file. This is because of the language codes (en-EN / no-NO) currently used for compatibility. With release V2.0.0.12 the control panel will support the official extensions of the Microsoft country code table (en-GB, nb-NO) to avoid any problems with Mono/Linux (see "Naming conventions" below).
 
 <h2>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</h2>
 
@@ -67,7 +67,7 @@ Most supported language files are following to Microsofts Table of Language Cult
 
 This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
 
-There are currently to exceptions from this standard, to avoid too much different files for one language:
+There are currently two exceptions from this standard, to be compatible with V2.0.0.10 and avoid too much different files for one language:
 - en-EN - being used for en-US and en-GB
 - no-NO - being used for nb-NO and ny-NO
 
