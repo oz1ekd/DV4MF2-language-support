@@ -9,6 +9,10 @@ To use DV4MF2 with additional languages, please create a folder "\languages" ins
 
 The control panel dynamically loads at startup available languages, the available languages (up to 20 with V2.0.0.11) can be selected by the user in the programs gateway tab. When language files were found in the specific folder, the program offers a selectlist instead of the default language buttons for english/german (build-in).
 
+Announcement:
+===================
+The new release V2.0.0.12 is in final beta test since begin of May 2016, we already have updated some language files to be prepared to support some more ISO language codes (nb-NO Norsk language for example). The beta will become public within next week, please watch my website http://blog.dl2mf.de  or  http://twitter.com/DL2MF  for further announcement.
+
 
 Compatibility note:
 ===================
