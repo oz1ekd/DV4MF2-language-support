@@ -1,52 +1,55 @@
 DV4MF2 - Control Panel for HAM DV modes
 =======================================
 
+
 This repository contains Language support, Add-On files and other sample files for the popular DV4MF2 DMR Controlpanel.
 
-Starting with V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
+
+Current version V2.0.0.12 supports up to 20 languages. Starting with V2.0.0.10 the DV4MF2 control panel supports dynamically loaded GUI language files which can be selected, modified and exchanged by the user. 
 
 To use DV4MF2 with additional languages, please create a folder "\languages" inside the program folder and download and <b>copy the standard english language and any of your favorite languages</b> to this folder.
 
-The control panel dynamically loads at startup available languages, the available languages (up to 20 with V2.0.0.11) can be selected by the user in the programs gateway tab. When language files were found in the specific folder, the program offers a selectlist instead of the default language buttons for english/german (build-in).
+The control panel dynamically loads at startup available languages, the available languages can be selected and switched during run-time by the user in the programs gateway tab. When no language files were found in the specific folder, the program offers two default language buttons for english/german (build-in support).
 
 Announcement:
 ===================
-The new release V2.0.0.12 is in final beta test since begin of May 2016, we already have updated some language files to be prepared to support some more ISO language codes (nb-NO Norsk language for example). The beta will become public within next week, please watch my website http://blog.dl2mf.de  or  http://twitter.com/DL2MF  for further announcement.
+The new release V2.0.0.12 has been released May 21th, 2016 and does require a change of the default english language file, that must be named now with the standard ISO-code en-GB (instead of en-EN). The program checks and will display a warning, if the default file could not be found. All available language files have been prepared to support ISO language codes (nb-NO Norsk, en-US American english and some more).
 
 
 Compatibility note:
 ===================
 With V2.0.0.11 the language file format changed (see below)!. It has been extended and is <b>offering 35 additional customizable text elements</b>, the new program version checks compatibility of the language file.
 
-Running <b>Linux</b> currently causes a <b>compatibilty issue</b> with english and norwegian language file. This is because of the language codes (en-EN / no-NO) currently used for compatibility. With release V2.0.0.12 the control panel will support the official extensions of the Microsoft country code table (en-GB, nb-NO) to avoid any problems with Mono/Linux (see "Naming conventions" below).
+Running <b>Linux</b> currently caused a <b>compatibilty issue</b> up to V2.0.0.11 with english and norwegian language file. This is because of the language codes (en-EN / no-NO) currently used for compatibility. With release V2.0.0.12 the control panel now supports the official extensions of the Microsoft country code table (en-GB, nb-NO) to avoid any problems with Mono/Linux (see "Naming conventions" below).
 
 <h2>New language files are no more compatible with V2.0.0.10, please update if you are using this release before!</h2>
 
-<b>Available language files V2.0.0.11 (complete and ready for download here):</b>
-- en-EN*- English    (build-in + language file)
+<b>Available language files V2.0.0.12 (complete and ready for download here):</b>
+- en-GB*- English    (build-in + language file)
+- en-US - English US (build-in + language file)- 
 - de-DE - German     (build-in + language file)
 - fr-FR - Francais   tnx to Frederic, F4EED 
 - it-IT - Italiano   tnx to Franco, HB9OAB
 - es-ES - Espaniol   tnx to Iñigo, EA2CQ
 - pt-PT - Português  tnx to José, CT1JIB
 - nl-NL - Nederlands tnx to Rudy, PD0ZRY and Walter, PD2WGN
-- sv-SV - Swedish    tnx to Johan, SM0TSC
-- no-NO*- Norsk      tnx to Gaute, LB6YD 
-- us-ER - User       a template available to build your own file
+- sv-SE - Swedish    tnx to Johan, SM0TSC
+- nb-NO - Norsk      tnx to Gaute, LB6YD 
+- us-ER - User       a template available to create your own language
 
 *to use one of this language please try V2.0.0.10 (with old language file format) or upgrade to V2.0.0.12 when available, english also available as built-in language, rename or delete /languages folder to use built-in languages!
 
 <b>Soon available languages (under revision):</b>
-- pl-PL - Polish     tnx to Sebastian, SP2FRN (in progress)
-- fi-FI - Suomi      (language file) tnx to Johanna (in progress)
+- pl-PL - Polish     tnx to Sebastian, SP2FRN (in progress, under translation)
+- fi-FI - Suomi      tnx to Johanna (in progress, under translation)
 
 <b>Other optional languages and modifications:</b> 
 - Norsk      based on Gaute, LB6YD with some modifications by Kai, LA3QMA
 
 <b><i>Languages we are looking for contributors (simply take the english file as your template):</b></i>
 - be-NL - Belgium   (language file) *looking for a contributor
-- dk-DK - Dansk     (language file) *looking for a contributor
-- cz-CZ - Czech     (language file) *looking for a contributor
+- da-DK - Dansk     (language file) *looking for a contributor
+- cs-CZ - Czech     (language file) *under translation 
 - ru-RU - русский   (language file) *looking for a contributor
 - your file - please send us your translation
 
@@ -72,7 +75,7 @@ Most supported language files are following to Microsofts Table of Language Cult
 
 This is necessary to support other formatting options, like date and time format for the logfiles when changing the language. The number of direct supported languages is limited to 20 and will be follow the countries with the most DMR-Repeaters.
 
-There are currently two exceptions from this standard, to be compatible with V2.0.0.10 and avoid too much different files for one language:
+Before V2.0.0.12 there were two exceptions from standard, to be compatible with earlier versions and avoid too much different files for one language:
 - en-EN - being used for en-US and en-GB
 - no-NO - being used for nb-NO and ny-NO
 
@@ -81,6 +84,16 @@ Any additional language can be used by the option of the user-defined language f
 
 Changelog:
 ==============================================================
+
+Version 2.0.0.12 - 20160521 "Dayton"
+...........................................................
+- NEW:   Support for all GUI language files in new format now with 150 text elements for all supported languages
+- NEW:   Two additional languages announced soon after this release (polish and finnish)
+- ADDED: Many new XTG talkgroups for BrandMeister (update to 228xx Swiss groups, 230 Czech Republic, 231 Slovak Republic, 302 Canada)
+- ADDED: Program version check for outdated Control Panel version and incompatible dv_serial.exe
+- CHG: Standard ISO codes implemented for en-GB, en-US, no-NB, nl-BE, da-DK, sv-SE - keep in mind to update your languages!
+- CHG:   Some code optimization and internal changes
+- FIXED: minor fixes for use of control panel when running on Linux with mono
 
 Version 2.0.0.11 - 20160401 "April joke"
 ...........................................................
