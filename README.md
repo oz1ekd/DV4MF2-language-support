@@ -33,7 +33,7 @@ Running <b>Linux</b> currently caused a <b>compatibilty issue</b> up to V2.0.0.1
 - es-ES - Espaniol   tnx to Iñigo, EA2CQ
 - pt-PT - Português  tnx to José, CT1JIB
 - nl-NL - Nederlands tnx to Rudy, PD0ZRY and Walter, PD2WGN
-- be-NL - Flemisch   tnx to Bas, ON2HB    - NEW!
+- nl-BE - Flemisch   tnx to Bas, ON2HB    - NEW!
 - sv-SE - Swedish    tnx to Johan, SM0TSC
 - nb-NO - Norsk      tnx to Gaute, LB6YD 
 - us-ER - User       a template available to create your own language
