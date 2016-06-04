@@ -6,7 +6,7 @@
 # -------------------------------------------------------------------------------------------- # 
 # Translation to foreign languages are made by community supporters                            # 
 # -------------------------------------------------------------------------------------------- # 
-# Italian language translation by HB9oab (v11042016)                                           # 
+# Italian language translation by HB9oab (v29052016)                                           # 
 # ============================================================================================ #
 language::Italiano
 "DV"
@@ -91,7 +91,7 @@ language::Italiano
 "Info"
 "Messaggio"
 "Calls"
-"immagine"
+"Qsl"
 "REF"
 "XTG"
 "Percentuale di errore audio"
